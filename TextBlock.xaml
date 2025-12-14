@@ -1,0 +1,6 @@
+<TextBlock Text="Привет, WPF!" 
+           FontSize="18" 
+           Foreground="Blue" 
+           FontWeight="Bold"
+           TextWrapping="Wrap"
+           Margin="10"/>
