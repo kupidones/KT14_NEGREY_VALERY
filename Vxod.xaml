@@ -1,0 +1,18 @@
+<StackPanel Width="300" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
+    <Label Target="{Binding ElementName=txtLogin}" Content="Логин:" />
+    <TextBox x:Name="txtLogin" Margin="0,5" />
+    <Label Target="{Binding ElementName=txtPassword}" Content="Пароль:" />
+    <PasswordBox x:Name="txtPassword" Margin="0,5" />
+    <Button Content="Войти" 
+            Width="100" 
+            Height="35" 
+            Margin="0,15,0,0"
+            Click="Button_Click"
+            IsDefault="True" />
+    <Button Content="Отмена" 
+            Width="100" 
+            Height="35" 
+            Margin="0,5,0,0"
+            Click="CancelButton_Click"
+            IsCancel="True" />
+</StackPanel>
